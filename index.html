@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Login| TIDAL
+    </title>
+
+    <link rel="stylesheet" href="style.css" rgba(0,0,0,0)>
+  </head>
+
+  <body>
+    <div>
+      <img class = "logo" src = "logo1.png">
+      <h1 class = "header1">Sign up or log in</h1>
+    </div>
+    <div class = "wrapper">
+      <div class = "form-box">
+        <form action="#">
+          <label for="email" class="username">Email or username
+          </label>
+          <input type="text" id="email" placeholder="Enter your email or username" required>
+          <button type="submit" class = "continue">Continue</button>
+          <div class = "or">
+            or
+          </div>
+          <div class = "buttons">
+            <button class="google"><ion-icon name="logo-google"></ion-icon>Continue with Google</button>
+            <button class = "facebook"><ion-icon name="logo-facebook"></ion-icon>Continue with Facebook</button>
+            <button class = "apple"><ion-icon name="logo-apple"></ion-icon>Continue with Apple</button>
+            <button class = "x"><ion-icon name="logo-twitter"></ion-icon>Continue with X</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <hr>
+
+    <footer>
+      <div class="tidal" align = "left">© 2024 TIDAL Music AS</div>
+      <div class="links">
+          <a href="#">Privacy Notice</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Cookie Settings</a>
+          <a href="#">Accessibility Statement</a>
+          <a href="#">Contact</a>
+        <div class="language-selector">
+        <button class="language-button" onclick="toggleDropdown()"><ion-icon name="globe-outline"></ion-icon>English</button>
+        <div id="languageDropdown" class="language-dropdown">
+            <a href="#" onclick="changeLanguage('English')">English</a>
+            <a href="#" onclick="changeLanguage('български')">български</a>
+            <a href="#" onclick="changeLanguage('Deutsch')">Deutsch</a>
+            <a href="#" onclick="changeLanguage('Español')">Español</a>
+            <a href="#" onclick="changeLanguage('Français')">Français</a>
+            <a href="#" onclick="changeLanguage('Hrvatski')">Hrvatski</a>
+            <a href="#" onclick="changeLanguage('Italiano')">Italiano</a>
+            <a href="#" onclick="changeLanguage('日本語')">日本語</a>
+            <a href="#" onclick="changeLanguage('Norsk')">Norsk</a>
+            <a href="#" onclick="changeLanguage('Polski')">Polski</a>
+            <a href="#" onclick="changeLanguage('Português')">Português</a>
+            <a href="#" onclick="changeLanguage('Português (Brasil)')">Português (Brasil)</a>
+            <a href="#" onclick="changeLanguage('Slovenščina')">Slovenščina</a>
+        </div>
+    </div>
+      </div>
+      
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
